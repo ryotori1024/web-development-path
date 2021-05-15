@@ -1,0 +1,123 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+/* ここからヘッダー部分のCSS */
+.header{
+  background-color:#26d0c9;
+  display:flex;
+}
+
+.header h1{
+  font-size:36px;
+  margin:20px 40px;
+}
+
+.header p{
+  margin:33px 20px;
+}
+
+.header h1,.header p{
+  color:#fff;
+}
+
+.top{
+  padding:100px 80px;
+}
+
+.top span{
+  color:#ff4a4a;
+}
+
+.top h1{
+  font-size:140px;
+}
+
+.top h2{
+  font-size:60px;
+}
+
+/* ここからトップ部分のCSS */
+.lessons{
+  padding-top:100px;
+  padding-bottom:130px;
+}
+
+.lessons h3{
+  font-size:28px;
+  padding-bottom:15px;
+  border-bottom:solid 2px #dee7ec;
+  margin-bottom:50px;
+}
+
+.lesson{
+  display:flex;
+}
+
+.lesson p{
+  font-size:24px;
+}
+
+.lesson-image{
+  padding-bottom:30px;
+}
+
+.image-html, .image-php, .image-ruby{
+  padding-right:40px;
+}
+
+/* ここからフォーム部分のCSS */
+.form h3{
+  font-size:28px;
+  padding-bottom:15px;
+  border-bottom:solid 2px #dee7ec;
+  margin-bottom:50px;
+}
+
+.form p{
+  padding-bottom:10px;
+}
+
+.mail-address-text, .inquiry-text, .submit-btn{
+  width:400px;
+  padding:20px 20px;
+  margin-bottom:30px;
+  border:solid 1px #dee7ec;
+}
+
+.submit-btn{
+  font-size:18px;
+  background-color:#dee7ec;
+  color:#889ead;
+}
+
+/* ここからフッター部分のCSS */
+.footer{
+  background-color:#2f5167;
+  color:#fff;
+  display:flex;
+  padding:40px 40px;
+}
+
+.footer h1{
+  font-size:32px;
+  margin-right:950px;
+}
+
+.footer-li{
+  padding-bottom:20px;
+}
